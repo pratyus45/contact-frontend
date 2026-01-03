@@ -98,7 +98,7 @@ const ContactForm = ({ onContactAdded }) => {
               id="name"
               name="name"
               type="text"
-              placeholder="John Doe"
+              placeholder="Pratyush"
               value={formData.name}
               onChange={handleChange}
             />
@@ -116,7 +116,7 @@ const ContactForm = ({ onContactAdded }) => {
               id="email"
               name="email"
               type="email"
-              placeholder="john@example.com"
+              placeholder="pratyush@example.com"
               value={formData.email}
               onChange={handleChange}
             />
@@ -135,7 +135,7 @@ const ContactForm = ({ onContactAdded }) => {
             id="phone"
             name="phone"
             type="tel"
-            placeholder="+1 (555) 123-4567"
+            placeholder="+91 9876543210"
             value={formData.phone}
             onChange={handleChange}
           />
