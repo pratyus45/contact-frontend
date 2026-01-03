@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-   baseURL: 'https://contact-backend-z2ga.onrender.com/',
+   baseURL: 'https://contact-backend-z2ga.onrender.com', //'http://localhost:5000/api'//
   headers: {
     'Content-Type': 'application/json',
   },
